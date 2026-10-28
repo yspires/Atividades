@@ -1,0 +1,39 @@
+.pagina-eventos {
+  h2 {
+    color: #800080;
+    text-align: center;
+  }
+
+  .lista-eventos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .card-evento {
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    h3 {
+      color: #800080;
+    }
+
+    button {
+      padding: 10px;
+      background: #800080;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+  .evento-selecionado {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f7eff7;
+    border-radius: 8px;
+  }
+}

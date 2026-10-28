@@ -1,0 +1,43 @@
+.pagina-ingressos {
+  h2 {
+    color: #800080;
+    text-align: center;
+  }
+
+  input:not([type="checkbox"]) {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .opcao-meia {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 15px 0;
+  }
+
+  .resumo {
+    padding: 15px;
+    margin-top: 20px;
+    background: #f7eff7;
+    border-radius: 8px;
+
+    h3 {
+      color: #800080;
+    }
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #800080;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}

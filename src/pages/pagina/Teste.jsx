@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./Teste.scss";
 
+import { Link } from "react-router-dom";
+
 export default function Teste() {
 const [texto1, setTexto1] = useState("");
 const [texto2, setTexto2] = useState("");
@@ -11,19 +13,15 @@ setEnviado(true);
 }
 
 return (
+    <section className="pagina-teste">
+<Link to="/" className="voltar-inicio"> Voltar</Link>
 <div className="container">
-<h1>Minha Página React</h1>
+<h1>Perguntas:</h1>
 
-<img
-src="https://placehold.co/200x150"
-alt="Imagem de exemplo"
-className="imagem"
-/>
-
-<h2>Primeiro texto</h2>
+<h2>Você gosta de pipoca?</h2>
 
 <p className="texto-digitado">
-{texto1 || "Seu texto aparecerá aqui"}
+{texto1 || "..."}
 
 </p>
 
@@ -37,10 +35,10 @@ setEnviado(false);
 }}
 />
 
-<h2>Segundo texto</h2>
+<h2>Vamos brincar de boneca?</h2>
 
 <p className="texto-digitado">
-{texto2 || "Seu segundo texto aparecerá aqui"}
+{texto2 || "..."}
 </p>
 
 <input
@@ -59,11 +57,13 @@ Enviar
 
 {enviado && (
 <div className="resultado">
-<h2>Textos enviados!</h2>
-<p>Primeiro texto: {texto1}</p>
-<p>Segundo texto: {texto2}</p>
+<h2>Respostas!</h2>
+<p>1: {texto1}</p>
+<p>2: {texto2}</p>
 </div>
 )}
 </div>
+</section>
+
 );
 }

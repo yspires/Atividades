@@ -1,0 +1,29 @@
+.pagina-inicio {
+  text-align: center;
+
+  h2 {
+    color: #800080;
+  }
+
+  p {
+    margin-bottom: 25px;
+  }
+
+  .menu-paginas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    a {
+      padding: 14px;
+      background: #800080;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    a:hover {
+      background: #5c005c;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.pagina-calculadora {
+  h2 {
+    color: #800080;
+    text-align: center;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #800080;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  h3 {
+    margin-top: 20px;
+    overflow-wrap: anywhere;
+  }
+}
