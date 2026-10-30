@@ -1,8 +1,11 @@
 .pagina-inicio {
   text-align: center;
+  
 
   h2 {
     color: #800080;
+    padding: 35px;
+    font-size: 35px;  
   }
 
   p {
@@ -12,14 +15,14 @@
   .menu-paginas {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
 
     a {
-      padding: 14px;
+      padding: 20px;
       background: #800080;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
+      border-radius: 5px;
     }
 
     a:hover {

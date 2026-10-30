@@ -31,7 +31,7 @@ export default function Calculadora() {
 
   return (
     <section className="pagina-calculadora">
-      <Link to="/" className="voltar-inicio">Voltar</Link>
+      
       <h2>Calculadora</h2>
 
       <input
@@ -61,6 +61,9 @@ export default function Calculadora() {
       <button onClick={calcular}>Calcular</button>
 
       <h3>Resultado: {resultado}</h3>
+      
+      <Link to="/" className="voltar-inicio">Voltar</Link>
+        
     </section>
   );
 }

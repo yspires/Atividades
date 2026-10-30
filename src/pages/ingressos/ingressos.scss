@@ -1,4 +1,6 @@
+
 .pagina-ingressos {
+
   h2 {
     color: #800080;
     text-align: center;
@@ -16,7 +18,7 @@
   .opcao-meia {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 15px;
     margin: 15px 0;
   }
 
@@ -28,16 +30,46 @@
 
     h3 {
       color: #800080;
+      text-align: center;
     }
   }
 
   button {
     width: 100%;
     padding: 12px;
-    background: #800080;
+    background: #660066;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
+
+    &:hover {
+      background:#660066;
+    }
   }
+
+  
+    .voltar-inicio {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        margin-top: 12px;
+
+        background-color: #800080;
+        color: white !important;
+
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+
+        border-radius: 6px;
+        box-sizing: border-box;
+
+        &:hover {
+            background-color: #660066;
+        }
 }
+    
+  }
+

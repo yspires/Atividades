@@ -29,7 +29,7 @@ export default function Eventos() {
 
   return (
     <section className="pagina-eventos">
-      <Link to="/" className="voltar-inicio">Voltar</Link>
+      
       <h2>Eventos</h2>
       <p>Confira os eventos disponíveis.</p>
 
@@ -55,6 +55,9 @@ export default function Eventos() {
           <p>{eventoSelecionado}</p>
         </div>
       )}
+
+        <Link to="/" className="voltar-inicio">Voltar</Link>
+
     </section>
   );
 }
